@@ -1,74 +1,127 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Creación de Páginas Web con Chat GPT</title>
+  <title>Tu Página Web</title>
   <style>
     body {
-      background-image: url(ruta/a/la/imagen.jpg);
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center;
       margin: 0;
       padding: 0;
-    }
-
-    header {
-      background-color: #ff4d4d;
-      padding: 20px;
-      text-align: center;
-    }
-
-    h1 {
-      color: #fff;
       font-family: Arial, sans-serif;
-      font-size: 36px; /* Ajusta el tamaño de la tipografía aquí */
     }
-
-    .center {
+    
+    header {
+      background-color: #00cc66;
+      padding: 20px;
       display: flex;
-      justify-content: center;
       align-items: center;
-      height: 100vh;
     }
-
-    .button {
-      padding: 20px 40px;
-      background-color: #00bfff;
-      color: #fff;
+    
+    header img {
+      width: 100px;
+      height: auto;
+    }
+    
+    .hero-image {
+      position: relative;
+    }
+    
+    .hero-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: #ffffff;
+    }
+    
+    .hero-text h1 {
+      font-size: 24px;
+    }
+    
+    .hero-text p {
       font-size: 18px;
-      font-weight: bold;
+    }
+    
+    .button {
+      padding: 10px 20px;
+      background-color: #b3ffb3;
+      color: #000000;
+      font-size: 18px;
       border: none;
       border-radius: 5px;
       cursor: pointer;
-      animation: pulse 1.5s infinite;
     }
-
-    @keyframes pulse {
-      0% {
-        background-color: #00bfff;
-      }
-      50% {
-        background-color: #0066cc;
-      }
-      100% {
-        background-color: #00bfff;
-      }
-    }
-
+    
     .content {
-      margin: 0 10%;
+      display: flex;
+      margin: 20px;
+    }
+    
+    .content img {
+      width: 200px;
+      height: auto;
+      margin-right: 20px;
+    }
+    
+    .content p {
+      color: #000000;
+    }
+    
+    footer {
+      background-color: #00cc66;
+      padding: 20px;
+      color: #ffffff;
+    }
+    
+    footer p {
+      color: #ffffff;
+    }
+    
+    .form-container {
+      margin-top: 20px;
+    }
+    
+    .form-container input,
+    .form-container textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+    
+    .form-container button {
+      background-color: #b3ffb3;
+      color: #000000;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Creación de Páginas Web con Chat GPT</h1>
+    <img src="ruta/a/tu/logo.png" alt="Logo">
   </header>
-
-  <div class="center">
-    <div class="content">
-      <button class="button">Haz clic aquí</button>
+  
+  <div class="hero-image">
+    <img src="ruta/a/tu/foto-header.jpg" alt="Foto Header" style="width:100%;">
+    <div class="hero-text">
+      <h1>Sales Representative</h1>
+      <p>Local representation that makes the difference</p>
+      <button class="button">I want to be represented!</button>
     </div>
   </div>
-</body>
-</html>
+  
+  <div class="content">
+    <img src="ruta/a/tu/foto-lateral.jpg" alt="Foto Lateral">
+    <p>About us</p>
+    <p>We are sales representatives for the electro-electronics industry, with extensive experience in demand generation and interaction with distribution channels in LATAM.</p>
+    <p>Our focus is on providing a value proposition tailored to the needs of our clients and the reality of the market we operate in.</p>
+  </div>
+  
+  <footer>
+    <p>Our services</p>
+    <ul>
+      <li>Desarrollo de mercado</li>
+      <li>Manejo de soporte a clientes directos</li>
+      <li>Soporte técnico y
